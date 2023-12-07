@@ -1,0 +1,1 @@
+$data modify storage $(return) set from storage npc$(id): function

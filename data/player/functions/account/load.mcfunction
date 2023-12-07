@@ -1,0 +1,1 @@
+data modify storage world: status_init set value {attack:10,defense:10,health:50,element:100} 

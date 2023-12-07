@@ -1,0 +1,1 @@
+execute if entity @e[tag=npc,tag=!id] as @e[tag=npc,tag=!id,limit=1] run function npc:npc_init/set_id
