@@ -1,0 +1,40 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wooden_sword",
+            "functions": [
+              {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{HideFlags:2,type:sword,id:00,Unbreakable:1b}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "手工芸の技術で作られた木製の剣。",
+                    "italic": true
+                  },
+                  {
+                    "text": "多くの見習い騎士に愛用されている。",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                    "text": "見習いの剣",
+                    "color": "gray",
+                    "underlined": true
+                  }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

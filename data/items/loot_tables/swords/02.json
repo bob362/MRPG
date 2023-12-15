@@ -1,0 +1,40 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_sword",
+            "functions": [
+              {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{HideFlags:2,type:sword,id:02,Unbreakable:1b}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "優れた鉄鍛冶の技術で作られた信頼の剣。",
+                    "italic": true
+                  },
+                  {
+                    "text": "騎士の地位を象徴する。",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                    "text": "騎士の誓い",
+                    "color": "gray",
+                    "underlined": true
+                  }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

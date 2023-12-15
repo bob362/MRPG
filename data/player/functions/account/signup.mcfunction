@@ -1,3 +1,11 @@
+#> player:account/signup
+#
+# プレイヤーIDの割り当て、個人ストレージの初期化
+#
+# @internal
+
+
+
 #id割り当て済みタグ
     tag @s add user
 #ワールド内のid割り当て済みユーザーカウント（id割り当て時参照)　ストレージと同期

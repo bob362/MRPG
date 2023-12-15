@@ -1,0 +1,40 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_sword",
+            "functions": [
+              {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{HideFlags:2,type:sword,id:03,Unbreakable:1b}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "見た目にも美しい金製の剣。",
+                    "italic": true
+                  },
+                  {
+                    "text": "名声と富の象徴であり、敵を圧倒する輝きを放つ。",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                    "text": "勇士の輝き",
+                    "color": "gray",
+                    "underlined": true
+                  }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

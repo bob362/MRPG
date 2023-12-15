@@ -1,1 +1,0 @@
-$function npc:interaction/run {function:"$(function)"}

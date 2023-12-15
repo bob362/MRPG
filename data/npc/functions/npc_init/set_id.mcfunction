@@ -1,3 +1,9 @@
+#> npc:npc_init/set_id
+#
+# 個別IDを割り当て
+#
+# @internal
+
 #id割り当て済みタグ
     tag @s add id
 #ワールド内のid割り当て済みユーザーカウント（id割り当て時参照)　ストレージと同期

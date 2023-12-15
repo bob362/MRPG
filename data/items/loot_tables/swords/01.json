@@ -1,0 +1,40 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stone_sword",
+            "functions": [
+              {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{HideFlags:2,type:sword,id:01,Unbreakable:1b}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "堅い岩石で作られた頑丈な剣。",
+                    "italic": true
+                  },
+                  {
+                    "text": "冒険の初めに多くの旅人が選ぶ、信頼性の高い選択肢。",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                    "text": "旅路の刃",
+                    "color": "gray",
+                    "underlined": true
+                  }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

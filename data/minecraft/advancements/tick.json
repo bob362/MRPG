@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "tick": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "type": "minecraft:player"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "minecraft:advancement_tick"
+    }
+  }
+  

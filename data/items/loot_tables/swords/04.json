@@ -1,0 +1,40 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_sword",
+            "functions": [
+              {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{HideFlags:2,type:sword,id:04,Unbreakable:1b}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "極めて硬いダイヤモンドで鍛えられた剣。",
+                    "italic": true
+                  },
+                  {
+                    "text": "冒険の過酷な試練に耐え、敵を容易に斬り裂く。",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                    "text": "不屈の剣士",
+                    "color": "gray",
+                    "underlined": true
+                  }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
